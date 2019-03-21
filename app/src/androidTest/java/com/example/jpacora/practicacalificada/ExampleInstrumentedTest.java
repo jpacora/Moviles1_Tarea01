@@ -1,4 +1,4 @@
-package com.example.jpacora.tarea01;
+package com.example.jpacora.practicacalificada;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -17,10 +17,10 @@ import static org.junit.Assert.*;
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
     @Test
-    public void useAppContext() throws Exception {
+    public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.jpacora.tarea01", appContext.getPackageName());
+        assertEquals("com.example.jpacora.practicacalificada", appContext.getPackageName());
     }
 }
